@@ -1,12 +1,15 @@
 canvas {
-	border: 1px solid black;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-h1 {
+body {
+	height: fit-content;
+}
+
+h1, p {
 	font-family: monospace;
   	display: flex;
   	justify-content: center;
