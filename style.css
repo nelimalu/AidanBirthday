@@ -1,12 +1,14 @@
 canvas {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: inline;
 }
 
 body {
 	height: fit-content;
+}
+
+#canvas-container {
+   width: 100%;
+   text-align:center;
 }
 
 h1, p {
